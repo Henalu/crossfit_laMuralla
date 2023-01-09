@@ -1,0 +1,84 @@
+.app .pricesInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.app .pricesInfo .layer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.503);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.app .pricesInfo .layer h1,
+.app .pricesInfo .layer h2,
+.app .pricesInfo .layer h3,
+.app .pricesInfo .layer h4,
+.app .pricesInfo .layer p {
+    color: white;
+}
+
+.app .pricesInfo .layer article hgroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+.app .pricesInfo .layer h1 {
+    text-align: center;
+    font-size: 6vw;
+    margin-bottom: 20px;
+    font-family: Inter-Extra-Bold, sans-serif;
+}
+
+.app .pricesInfo .layer h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: Inter-Bold, sans-serif;
+}
+
+.app .pricesInfo .layer article {
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app .pricesInfo .layer article .prices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.app .pricesInfo .layer article .prices a {
+    width: 40%;
+    height: 80px;
+    background-color: #6B7F35;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.app .pricesInfo .layer article .prices a:hover {
+    background-color: #8B9A42;
+}
+
+.app .pricesInfo .layer article .prices a h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,51 @@
+.mobile .mobile-navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: black;
+    height: 90px;
+    z-index: 3;
+}
+
+.mobile .mobile-navbar .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 65%;
+}
+
+.mobile .mobile-navbar .react-icons {
+    vertical-align: middle;
+    color: white;
+    stroke:white;
+    width: 40px;
+    height: 40px;
+    stroke-width: 2px;
+    fill: white;
+  }
+
+.mobile .mobile-navbar a {
+    font-family: Inter-Extra-Bold, sans-serif;
+    font-size: 14px;
+}
+
+.mobile .mobile-navbar .menu a {
+    display: flex;
+    align-items: center;
+    height: 95%;
+    width: fit-content;
+    border: 1px solid black;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    transition: all 300ms;
+}
+
+.mobile .mobile-navbar .menu a:hover {
+    color: #8B9A42;
+}

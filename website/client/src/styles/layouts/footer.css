@@ -1,0 +1,36 @@
+.app footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+}
+
+.app footer h2 {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.app footer h2 a {
+    font-family: Inter-Extra-Bold, sans-serif;
+}
+
+.app footer .ft-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 65%;
+    padding: 20px;
+}
+
+.app footer .ft-content div {
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.app footer .ft-content .ft-section li {
+    margin-bottom: 4px;
+}
+
+.app footer li a {
+    font-size: 13px;
+}

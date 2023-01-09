@@ -1,0 +1,72 @@
+.app .clases {
+    display: flex;
+    flex-direction: column;
+}
+
+.app .clases .clases-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin-top: 100px;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.app .clases .clases-container .schedule {
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    width: 32%;
+    min-height: fit-content;
+    padding-bottom: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    overflow: hidden;
+}
+
+.app .clases .clases-container .schedule .img-container {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 16vw;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+.app .clases .clases-container .schedule .img-container .layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app .clases .clases-container .schedule .img-container h2 {
+    color: white;
+}
+
+.app .clases .clases-container .schedule article {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 80%;
+}
+
+.app .clases .clases-container .schedule article table{
+    width: 70%;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.app .clases .clases-container .schedule article thead{
+    background-color: #6B7F35;
+    height: 20px;
+}
+.app .clases .clases-container .schedule article table tbody tr{
+    background-color: #F7F7F8;
+}
+.app .clases .clases-container .schedule article table td{
+    text-align: center;
+}
+
+.app .clases .clases-container .schedule article p {
+    font-size: 1vw;
+    margin-bottom: 10px;
+}

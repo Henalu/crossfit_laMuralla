@@ -1,0 +1,38 @@
+CREATE DATABASE IF NOT EXISTS wodcrusher_db;
+
+USE wodcrusher_db;
+
+CREATE TABLE super_admins(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    password_hash VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE users(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    password_hash VARCHAR(255) NOT NULL,
+    is_admin BOOLEAN NOT NULL DEFAULT FALSE
+);
+
+CREATE TABLE benchmarks(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    fk_id_user INT NOT NULL,
+    FOREIGN KEY(fk_id_user) REFERENCES users(id) ON DELETE CASCADE
+);
+
+CREATE TABLE body(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    fk_id_user INT NOT NULL,
+    FOREIGN KEY(fk_id_user) REFERENCES users(id) ON DELETE CASCADE
+);
+
+CREATE TABLE profile_config(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    fk_id_user INT NOT NULL,
+    FOREIGN KEY(fk_id_user) REFERENCES users(id) ON DELETE CASCADE
+);

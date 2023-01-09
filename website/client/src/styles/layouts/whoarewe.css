@@ -1,0 +1,122 @@
+.app .whoarewe {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 20px 2px inset rgb(211, 211, 211);
+}
+
+.app .whoarewe h2 {
+    font-family: Inter-Extra-Bold, sans-serif;
+}
+
+.app .whoarewe h3,
+.app .whoarewe h4 {
+    font-family: Inter-Semi-Bold, sans-serif;
+
+}
+
+.app .whoarewe .story {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.app .whoarewe .story .title{
+    width: 20%;
+    height: 85%;
+}
+.app .whoarewe .story article {
+    width: 30%;
+    margin-top: 60px;
+}
+.app .whoarewe .story .media{
+    width: 25%;
+    height: 85%;
+}
+
+.app .whoarewe .story .title h2 {
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.app .whoarewe .story .title h3 {
+    margin-bottom: 20px;
+}
+.app .whoarewe .story .title button {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-radius: 30px;
+    width: 70%;
+    border: 0px;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #6B7F35;
+    transition: all 400ms;
+}
+
+.app .whoarewe .story .title button:hover{
+    background-color: #8B9A42;
+}
+
+.app .whoarewe .story .title button a{
+    color: white;
+}
+
+.app .whoarewe .story article h3 {
+    margin-bottom: 8px;
+}
+
+.app .whoarewe .story article p {
+    word-spacing: 2px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.app .whoarewe .story .media h2 {
+    margin-bottom: 20px;
+}
+
+.app .whoarewe .story .media h4 {
+    margin-bottom: 20px;
+}
+
+.app .whoarewe .story .media .img-container {
+    width: 100%;
+    height: 18vw;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.app .whoarewe .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    border-top: 1px solid rgba(189, 189, 189, 0.642);
+    height: 60px;
+    margin-top: 20px;
+}
+
+.app .whoarewe .bottom p {
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 65%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.app .whoarewe .bottom p span:first-child {
+    margin-right: 8px;
+}
+
+.app .whoarewe .bottom p span:last-child {
+    margin-top: 3px;
+}

@@ -1,0 +1,99 @@
+/* ? -------------- Color Palette -----------------
+? Black: #000000
+? White: #FFFFFF
+? Sap Green: #6B7F35
+? Moss Green: #8B9A42
+? Citron: #9F9819
+*/
+
+@font-face {
+    font-family: Inter-Extra-Bold;
+    src: url(../fonts/inter/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Inter-Semi-Bold;
+    src: url(../fonts/inter/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../fonts/inter/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../fonts/inter/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-Light;
+    src: url(../fonts/inter/Inter-Light.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-family: Inter-Regular, Helvetica, Arial,sans-serif;
+}
+
+/* Laptop */
+@import './app.css';
+@import './layouts/header.css';
+@import './layouts/navbar.css';
+@import './layouts/footer.css';
+
+/* Home */
+@import './layouts/imageSlider.css';
+@import './layouts/content.css';
+
+@import './layouts/whoarewe.css';
+@import './layouts/basicInfo.css';
+@import './layouts/prices.css';
+@import './layouts/socialMedia.css';
+
+@import './layouts/map.css';
+
+/* Store */
+@import './layouts/store.css';
+/* About */
+@import './layouts/about.css';
+@import './layouts/teammemberinfo.css';
+/* Clases */
+@import './layouts/clases.css';
+/* Instalaciones */
+@import './layouts/thebox.css';
+/* Contacto */
+@import './layouts/contact.css';
+
+
+/* Mobile */
+@import './mobile/mobile.css';
+@import './mobile/layouts/header.css';
+@import './mobile/layouts/navbar.css';
+@import './mobile/layouts/mobileMenu.css';
+@import './mobile/layouts/footer.css';
+
+/* Home */
+@import './mobile/layouts/imageSlider.css';
+@import './mobile/layouts/content.css';
+
+@import './mobile/layouts/whoarewe.css';
+@import './mobile/layouts/basicInfo.css';
+@import './mobile/layouts/prices.css';
+@import './mobile/layouts/socialMedia.css';
+
+@import './mobile/layouts/map.css';
+
+/* Store */
+@import './mobile/layouts/store.css';
+/* About */
+@import './mobile/layouts/about.css';
+@import './mobile/layouts/teammemberinfo.css';
+/* Clases */
+@import './mobile/layouts/clases.css';
+/* Instalaciones */
+@import './mobile/layouts/thebox.css';
+/* Contacto */
+@import './mobile/layouts/contact.css';

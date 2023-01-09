@@ -1,0 +1,19 @@
+.app .socialMedia{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    width: 80%;
+}
+.app .posts{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.app .post{
+    margin-bottom: 50px;
+}

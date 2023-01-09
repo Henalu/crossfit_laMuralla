@@ -1,0 +1,5 @@
+.mobile .map{
+    height: 250px;
+    width: 250px;
+    z-index: 0;
+}

@@ -1,0 +1,27 @@
+.app {
+    height: auto;
+    width: 100%;
+    min-width: 769px;
+    display: grid;
+    grid-template-areas: 
+    "header navbar navbar navbar navbar"
+    "content content content content content" 
+    "footer footer footer footer footer"
+    ;
+}
+
+.header{
+    grid-area: header;
+}
+
+.navbar {
+    grid-area: navbar;
+}
+
+.content {
+    grid-area: content;
+}
+
+.footer {
+    grid-area: footer;
+}

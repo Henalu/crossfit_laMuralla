@@ -1,0 +1,55 @@
+.app .info-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin-top: 100px;
+}
+
+.app .info-container h2,
+.app .info-container h3 {
+    font-family: Inter-Extra-Bold, sans-serif;
+}
+
+.app .info-container .basicInfo {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.app .info-container .basicInfo .info {
+    border-radius: 5px;
+    width: 32%;
+    height: 500px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    overflow: hidden;
+}
+
+.app .info-container .img-container {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40%;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+.app .info-container .img-container img {
+    width: 100%;
+}
+
+.app .info-container .basicInfo .info article {
+    padding: 15px;
+}
+
+.app .info-container .basicInfo .info article h3 {
+    margin-bottom: 10px;
+}
+
+.app .info-container .basicInfo .info article p {
+    color: #6D6D80;
+    font-size: 14px;
+    word-spacing: 2px;
+    line-height: 20px;
+}

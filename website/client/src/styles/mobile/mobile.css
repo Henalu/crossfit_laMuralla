@@ -1,0 +1,27 @@
+.mobile {
+    height: auto;
+    width: 100%;
+    min-width: 180px;
+    display: grid;
+    grid-template-areas: 
+    "header navbar navbar navbar navbar"
+    "content content content content content" 
+    "footer footer footer footer footer"
+    ;
+}
+
+.mobile .header{
+    grid-area: header;
+}
+
+.mobile .mobile-navbar {
+    grid-area: navbar;
+}
+
+.mobile .content {
+    grid-area: content;
+}
+
+.mobile .footer {
+    grid-area: footer;
+}

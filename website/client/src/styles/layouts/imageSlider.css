@@ -1,0 +1,66 @@
+.app .imageSlider {
+    width: 100%;
+    height: 580px;
+    margin: 0 auto;
+}
+
+.app .imageSlider .slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.app .imageSlider .slider .layer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.503);
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.app .imageSlider .slider .quickInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 90%;
+    width: 65%;
+}
+
+.app .imageSlider .slider .quickInfo h2,
+.app .imageSlider .slider .quickInfo p {
+    color: white;
+}
+
+.app .imageSlider .slider .quickInfo h2 {
+    font-size: 60px;
+    width: 85%;
+    margin-bottom: 15px;
+    font-family: Inter-Extra-Bold, sans-serif;
+}
+
+.app .imageSlider .slider .quickInfo p {
+    line-height: 22px;
+    width: 85%;
+}
+
+
+.app .imageSlider .dots {
+    display: flex;
+    place-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+    height: 8%;
+}
+
+.app .imageSlider .dots .dot {
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}

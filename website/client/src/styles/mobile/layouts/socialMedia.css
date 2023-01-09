@@ -1,0 +1,25 @@
+.mobile .socialMedia {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 80%;
+    z-index: 1;
+}
+
+.mobile .socialMedia h2 {
+    font-size: 40px;
+}
+
+.mobile .posts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.mobile .post {
+    margin-bottom: 50px;
+}

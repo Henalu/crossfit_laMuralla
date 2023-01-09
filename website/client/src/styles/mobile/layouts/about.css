@@ -1,0 +1,68 @@
+.mobile .about {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile .about .members-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 80%;
+    margin-top: 80px;
+}
+
+.mobile .about .members-container .team-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.mobile .about .members-container h2{
+    font-family: Inter-Extra-Bold, sans-serif;
+    font-size: 30px;
+    align-self: center;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+.mobile .about .members-container .member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.mobile .about .members-container .founders {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.mobile .about .members-container .workers {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.mobile .about .members-container .profile-img {
+    height: 40vw;
+    width: 40vw;
+    background-position: center;
+    background-size: cover;
+    border-radius: 999px;
+    border: 6px solid #6B7F35;
+    margin-bottom: 20px;
+}
+
+.mobile .about .members-container .member h3{
+margin-bottom: 15px;
+}
+
+.mobile .about .members-container .member .personal-social-media svg{
+    height: 12vw;
+    width: 12vw;
+}

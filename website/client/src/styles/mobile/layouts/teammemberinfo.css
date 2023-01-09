@@ -1,0 +1,77 @@
+.mobile .team-member-info {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9;
+}
+
+.mobile .team-member-info .layer {
+    background-color: #888888bf;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mobile .team-member-info .layer .info {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 83%;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 16px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.mobile .team-member-info .layer .info .close-modal{
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    margin-top: 15px;
+    align-self: flex-end;
+    background-color:#8b9a42b5;
+    border: 3px solid white;
+    border-radius: 999px;
+}
+
+.mobile .team-member-info .layer .info .close-modal:hover{
+    background-color:#9f9819b5;
+}
+
+.mobile .team-member-info .layer .info .img-container {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.mobile .team-member-info .info article {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 20px;
+    overflow: scroll;
+}
+
+.mobile .team-member-info .info article h2{
+    font-family: Inter-Extra-Bold, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.mobile .team-member-info .info article h3{
+    font-family: Inter-Semi-Bold, sans-serif;
+    margin-bottom: 5px;
+}
+.mobile .team-member-info .info article p{
+    margin-bottom: 15px;
+}

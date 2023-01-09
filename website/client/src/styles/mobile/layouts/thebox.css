@@ -1,0 +1,117 @@
+/* Style the video: 100% width and height to cover the entire window */
+.mobile .thebox {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile .thebox .video-container {
+    display: flex;
+    height: 50vw;
+    width: 100%;
+    min-height: 200px;
+    max-height: 600px;
+}
+
+.mobile .content .video-container .layer {
+    position: absolute;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.404);
+    justify-content: flex-end;
+    height: 50vw;
+    width: 100%;
+    min-width: 250px;
+    min-height: 200px;
+    max-height: 600px;
+}
+
+
+.mobile .thebox .video-container video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mobile .thebox .video-container .layer article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+}
+
+.mobile .thebox .video-container .layer h2 {
+    display: flex;
+    align-items: center;
+    font-size: 8vw;
+    font-family: Inter-Extra-Bold, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.mobile .thebox .video-container .layer p {
+    display: flex;
+    align-items: center;
+    font-size: 3vw;
+    font-family: Inter-Semi-Bold, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    width: 80%;
+}
+
+.mobile .thebox .box-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-self: center;
+}
+
+.mobile .thebox .box-info-container article.info-intro {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.mobile .thebox .box-info-container article h2 {
+    font-size: 40px;
+    font-family: Inter-Extra-Bold, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.mobile .thebox .box-info-container article p {
+    font-size: 16px;
+    word-spacing: 3px;
+    line-height: 24px;
+}
+
+.mobile .thebox .box-info-container .box-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.mobile .thebox .box-info-container .box-info .img-container {
+    width: 45%;
+    background-position: center;
+    background-size: cover;
+}
+
+.mobile .thebox .box-info-container .box-info article{
+    width: 50%;
+}
+.mobile .thebox .box-info-container .box-info article::-webkit-scrollbar {
+    display: none;
+  }
+.mobile .thebox .box-info-container .box-info article h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    font-family: Inter-Extra-Bold, sans-serif;
+    font-size: 4vw;
+}
+
+.mobile .thebox .box-info-container .box-info article p{
+    font-size: 2.5vw;
+}
