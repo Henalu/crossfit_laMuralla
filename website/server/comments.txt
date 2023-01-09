@@ -1,0 +1,2 @@
+Ahora vamos a definir nuestro modelo product para poder hacer operaciones en la base de datos con mongodb. 
+Mongoose nos da utilidades para crear nuestros modelos
